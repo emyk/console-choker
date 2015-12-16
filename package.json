@@ -1,6 +1,6 @@
 {
   "name": "console-choker",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Supress console output",
   "main": "lib/choker",
   "scripts": {
@@ -8,6 +8,11 @@
     "compile": "babel src --out-dir lib",
     "prepublish": "npm run compile"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emyk/console-choker.git"
+  },
+  "homepage": "https://github.com/emyk/console-choker",
   "author": "Espen Myklevoll",
   "license": "MIT",
   "dependencies": {
