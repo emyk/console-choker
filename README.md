@@ -1,6 +1,8 @@
 Console choker
 ==============
 
+[![build status](https://api.travis-ci.org/emyk/console-choker.svg?branch=master)](https://travis-ci.org/emyk/console-choker)
+
 A utility for choking the javascript console. Any suppressed output can be printed when restoring the console.
 
 ```js
